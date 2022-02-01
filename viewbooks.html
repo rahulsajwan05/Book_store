@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="viewbooks.css">
+  <!-- <link rel="stylesheet" href="addbooks.css"> -->
+  <title>Document</title>
+</head>
+
+<body onload="init()"> 
+  <!-- <body> -->
+  <div class="viewbookbgimg">
+    <header>
+
+      <div class="navbar">
+        <a class="topbar" href="#home" onclick="home()" >Home</a>
+
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#" onclick="addbook()" >Add Book</a>
+            <a href="#" onclick="view()" type="submit">View Book</a>
+          </div>
+        </div>
+
+        <a href="#logout" onclick="logout()">Logout</a>
+      </div>
+    </header>
+
+    <div class="viewbook_heading">
+
+      <div class="outerborder">
+        <div class="innerdesign">
+
+          <h3 id="heading"> View Books</h3>
+  
+          <div class="row">
+            <table id="viewbooktable">
+              <thead>
+                <tr>
+                  <th>Title</th>
+                  <th>Author</th>
+                  <th>Price</th>
+                  <th>Quantity</th>
+                  <th>publication<br> Date</th>
+                   <th >Button</th>
+                </tr>
+              </thead>
+              <tbody id="tablerows">
+                <tr>
+                  
+                </tr>
+              </tbody>
+
+            </table>
+          </div>
+          <div class="form-popup" id="myForm">
+            <form class="form-container">
+              <h1 id="updatebook">Update Book</h1>
+          
+              <label for="title" class="form"> Title </label>
+              <input type="text" name="title" id="title" class="updatebookinput">
+              <br>
+    
+              <label for="author" class="form"> Author </label>
+              <input type="text" name="email" id="author" class="updatebookinput" >
+              <br>
+    
+              <label for="price" class="form"> Price </label>
+              <input type="text" name="email" id="price" class="updatebookinput" >
+              <br>
+    
+              <label for="quantity" class="form"> Quantity </label>
+              <input type="text" name="email" id="quantity" class="updatebookinput" >
+              <br>
+    
+              <label for="pubyear" class="form"> Publication </label>
+              <input type="date" name="pw" id="pubyear" class="updatebookinput" >
+              <div class="updatebtn">
+              <button onclick="Updatebookdata()" type="submit" class="btn">Update</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </div>
+            </form>
+          </div>
+        </div>
+       
+  
+      </div>
+      
+      </div>
+
+      
+
+  
+
+        <!-- <div class="row">
+      <div class="column">
+        <div class="card">
+          <p> some text</p>
+          <p> some text</p>
+          <p> some text</p>
+          <div class="viewbookbtn">
+          <button onclick="edit()" type="submit"> Edit </button>
+          <button onclick="deletebtn()" type="submit" id="deletebtnid"> Delete </button>
+        </div>
+      </div>
+     
+
+    </div>
+        </div> -->
+
+    
+  
+    
+
+
+
+<script type="text/javascript" src="viewbooks.js">
+
+</script>
+
+
+</body>
+
+</html>

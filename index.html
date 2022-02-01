@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <title>
+        Registration form
+    </title>
+</head>
+
+<body onload="init()">
+    <div class="header">
+        <form class="container">
+            <h1 id="heading"> Login </h1>
+
+            <label for="email" class="form"> Email </label>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+            <br>
+
+            <label for="password" class="form"> Password </label>
+            <input type="password" placeholder="Enter Password" name="pw" id="pw" required>
+
+            <div class="btnclass">
+                <button onclick="login()" class="signupbtn">Login</button>
+              
+            </div>
+            <a href="registerdata.html" id="registrationlink"> Dont have an account ? Register Here </a>
+        </form>
+    </div>
+    <script type="text/javascript" src="indexnew.js"> </script>
+
+</body>
+
+</html>

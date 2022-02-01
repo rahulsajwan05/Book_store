@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="addbooks.css">
+    <title>Document</title>
+</head>
+
+<body onload="init()">
+    <div class="addbookbg">
+        <header>
+
+            <div class="navbar">
+                <a class="topbar" href="#home" onclick="home()">Home</a>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Dropdown
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#" onclick="addbook()">Add Book</a>
+                        <a href="#" onclick="viewbook()">View Book</a>
+                    </div>
+                </div>
+
+                <a href="#logout" onclick="logout()">Logout</a>
+            </div>
+        </header>
+
+        <div class="outerborder">
+
+            <div class="innerdesign">
+
+                <h3 id="heading"> Add Book </h3>
+
+                <div class="headers">
+                    <label for="title" class="add_book_input_field_right"> Title </label>
+                    <label for="author" class="add_book_input_field_left"> Author </label>
+                    <br>
+                    <input type="text" id="title" name="title" class="bookinputvalue_right" required />
+                    <input type="text" id="author" name="author" class="bookinputvalue_left" required />
+                </div>
+
+                <br>
+
+                <div class="header1">
+                    <label for="price" class="add_book_input_field_right"> Price </label>
+                    <label for="quantity" class="add_book_input_field_left_quantity"> Quantity </label>
+                    <br>
+                    <input id="price" class="bookinputvalue_right" name="price" type="text" required />
+                    <input id="quantity" class="bookinputvalue_left" name="quantity" type="number" min="1" max="10"
+                        required />
+
+
+                </div>
+
+                <br>
+                <div class="header2">
+                    <label for="pubyear" class="add_book_input_field_center"> Publication Year </label>
+                    <input id="pubyear" class="bookinputvalue_center" name="pubyear" type="date" required />
+                </div>
+
+                <div class="addbookbutton">
+                    <button onclick="addbook()" type="submit" id="bookbtn" class="btn"> Add </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="addbooks.js">
+    </script>
+
+</body>
+
+</html>

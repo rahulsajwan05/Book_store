@@ -1,0 +1,101 @@
+body, html {
+    background-color: lightslategray;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+.header{
+  background-image: url("login_image.jfif");
+    alt: login_image;
+  
+    min-height: 700px;
+    max-height: 800px;
+  
+     background-position: center;   
+     background-repeat: no-repeat; 
+     background-size: cover; 
+     position: relative; 
+     opacity: 0.8;
+}
+
+h1{
+    margin-left: 20%;
+    margin-top: 1%;
+}
+.form {
+    font-weight: bold;;
+    
+}
+
+.container {
+float: right;
+margin-right: 100px;
+margin-top: 100px;
+margin-left: 700px;
+margin-bottom: 100px;
+background-color: whitesmoke;
+padding: 30px;
+/* max-width: 400px; */
+height: 450px;
+width: 28%;
+
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .btnclass {
+      margin-top: 5%;
+      margin-left: 35%;
+      margin-bottom: 5%;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color:black;
+    color: white;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border: none;
+    cursor: pointer;
+    /* width: 0%; */
+    opacity: 0.9;
+    border-radius: 15px;
+    margin-left: 5%;
+   
+  }
+  .resisterbtn:hover {
+    opacity: 1;
+}
+
+.signupbtn{
+    background-color:black;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+    border-radius: 15px;
+    margin-left: 25%;
+}
+#loginlink
+{
+  margin-left: 15%;
+}

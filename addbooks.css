@@ -1,0 +1,213 @@
+*{
+    padding: 0%;
+    margin: 0%;  
+}
+
+.outerborder {
+    border-top: 20px solid yellow;
+    border-bottom: 20px solid yellow;
+    border-right: 20px solid yellow;
+    border-left: 20px solid yellow;
+    width: 45%;
+    border-radius: 30px;
+    margin: auto;
+    /* margin-top: 5%;  */
+    position: relative;
+    margin-top: 5%;
+}
+
+.addbookbg{
+    background-image: url("home_image.jpg");
+    min-height: 600px;
+  
+    background-position: center;   
+   background-repeat: no-repeat; 
+    background-size: cover; 
+    position: relative; 
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    
+}
+
+#heading{
+    margin: auto;
+    margin-left: 30%;
+    padding: 25px;
+    font-size: 35px;
+}
+.headers {
+    margin-top: 3%;
+    font-size: 15px;
+}
+.header1 {
+    margin-top: 3%;
+    font-size: 15px;
+}
+
+.header2{
+    margin-top: 3%;
+    font-size: 15px;
+}
+
+.add_book_input_field_right {
+    color:white;
+     padding: 0px;
+     font-size: 20px;
+     outline: none;
+     margin-top: 25%;
+     border: navy;
+     outline-style: none;
+     margin-left: 4%;
+     
+}
+
+.add_book_input_field_left {
+  color:white;
+   padding: 0px;
+   font-size: 20px;
+   outline: none;
+   margin-top: 25%;
+   border: navy;
+   outline-style: none;
+   margin-left: 45%;
+}
+
+.add_book_input_field_center {
+   color:white;
+   padding: 0px;
+   font-size: 20px;
+   outline: none;
+   margin-top: 25%;
+   border: navy;
+   outline-style: none;
+   margin-left: 35%;
+}
+
+.add_book_input_field_left_quantity{
+  color:white;
+   padding: 0px;
+   font-size: 20px;
+   outline: none;
+   margin-top: 25%;
+   border: navy;
+   outline-style: none;
+   margin-left: 43%;
+}
+
+.innerdesign {
+    border-radius: 10px;
+    background-color: darkgray;
+    /* border-radius: 10%; */
+}
+
+.bookinputvalue_right{
+    width:40%;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.bookinputvalue_left{
+  width:40%;
+  padding-top: 0.5%;
+  padding-bottom: 1%;
+  margin-top: 2%;
+  margin-left: 10%;
+}
+
+.bookinputvalue_center{
+  width:40%;
+  padding-top: 0.5%;
+  padding-bottom: 1%;
+  margin-top: 2%;
+  margin-left: 28%;
+}
+
+#bookbtn {
+    background-color:black;
+    color: white;
+    padding: 7px 7px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+    border-radius: 15px;
+    margin-left: 34%;
+     margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 15px;
+    /* font-size: 25px;
+    margin-left: 35%;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: yellow;  */
+    /* border-radius: 10%; */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    /* margin: 5px 5px; */
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    /* margin:5px 5px; */
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn:hover {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(255, 0, 0);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+ 
+  }
+   
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

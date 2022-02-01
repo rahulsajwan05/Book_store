@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="registerdata.css">
+    <title>
+        Registration form
+    </title>
+</head>
+
+<body onload="init()">
+    <div class="header">
+        <form class="container">
+            <h1 id="heading"> Registration </h1>
+
+            <label for="username" class="form"> Username </label>
+            <input type="text" placeholder="Enter Username" class="uname" name="username" id="username" required>
+            <br>
+
+            <label for="email" class="form"> Email </label>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+            <br>
+
+            <label for="password" class="form"> Password </label>
+            <input type="password" placeholder="Enter Password" name="pw" id="pw" required>
+
+            <div class="btnclass">
+                <button onclick="registration()" type="submit" class="registerbtn" >Register</button>
+                
+            </div>
+
+            <a href="index.html" id="loginlink"> Already Registered ? Login Here </a>
+
+        </form>
+    </div>
+    <script type="text/javascript" src="indexnew.js"> </script>
+
+</body>
+
+</html>
